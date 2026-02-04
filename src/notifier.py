@@ -13,6 +13,7 @@ def send_slack_notification(webhook_url, items):
             "type": "section",
             "text": {
                 "type": "mrkdwn",
+                # "text": f"<!channel> 🔔 *신규 공고 탐지 ({len(items)}건)*"
                 "text": f"🔔 *신규 공고 탐지 ({len(items)}건)*"
             }
         },
