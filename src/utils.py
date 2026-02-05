@@ -16,6 +16,6 @@ def get_config():
     return {
         "api_key": os.environ.get("decoding", ""),
         "api_endpoint": os.environ.get("API_ENDPOINT", ""),
-        "include_keywords": os.environ.get("INCLUDE_KEYWORDS", "위험성평가,산업안전,안전보건 관리,중대재해").split(","),
-        "region_codes": os.environ.get("REGION_CODES", "11,41,42,28").split(",")
+        "include_keywords": os.environ.get("INCLUDE_KEYWORDS", "").split(","),
+        "region_codes": os.environ.get("REGION_CODES", "").split(",")
     }
