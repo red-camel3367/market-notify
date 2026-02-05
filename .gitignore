@@ -206,6 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
+Guide/
 GEMINI.md
 develop_plan.md
 develop_plan2.md
