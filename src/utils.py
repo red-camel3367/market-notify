@@ -1,9 +1,6 @@
 import os
 import logging
-from dotenv import load_dotenv
 
-# .env 파일이 있으면 로드
-load_dotenv()
 
 # 로깅 설정
 logger = logging.getLogger()
